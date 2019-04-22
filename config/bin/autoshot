@@ -1,0 +1,9 @@
+#!/bin/bash
+ 
+for i in {1..1000}
+do
+   scrot -d 900 '%Y-%m-%d-%H:%M:%S.png' -e 'mv $f ~/Pictures/leetcode' 
+   scrot -d 2 '%Y-%m-%d-%H:%M:%S.png' -e 'mv $f ~/Pictures/leetcode' &
+   scrot -d 4 '%Y-%m-%d-%H:%M:%S.png' -e 'mv $f ~/Pictures/leetcode' &
+   scrot -d 8 '%Y-%m-%d-%H:%M:%S.png' -e 'mv $f ~/Pictures/leetcode' &
+done

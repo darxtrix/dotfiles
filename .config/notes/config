@@ -1,0 +1,4 @@
+# Configuration for notes ( https://github.com/pimterry/notes )
+
+NOTES_DIRECTORY="/home/ankush/Dropbox/notes"
+EDITOR="vim"
